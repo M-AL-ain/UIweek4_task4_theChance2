@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Chat</string>
+    <string name="message1">Hi leo what up ?? \n
+        I need a new logo for group.
+    </string>
+    <string name="message2">Simple , minimal and beauti...</string>
+
+    <string name="message3">Ok, I\'ll start next week. \n
+        Send me documents today.
+    </string>
+    <string name="message4">Oh. That\'s great 😍</string>
+
+
+</resources>

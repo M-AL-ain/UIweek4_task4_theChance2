@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/newbackground"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/newbackground"
+        android:elevation="20dp"
+        android:padding="5dp"
+        android:text="My Chat"
+
+        android:textColor="#000"
+        android:textSize="24sp">
+
+    </TextView>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+
+      />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_sender"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="70dp"
+
+
+            android:layout_marginLeft="20dp"
+
+
+            android:layout_marginRight="20dp"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:lineSpacingExtra="5dp"
+            android:paddingStart="30dp"
+            android:paddingTop="20dp"
+
+            android:paddingEnd="30dp"
+
+            android:text="@string/message1"
+
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <ImageView
+
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/done_all"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+    android:textSize="12sp"
+        android:layout_gravity="end"
+        android:gravity="right"
+        android:paddingStart="20dp"
+
+        android:paddingEnd="20dp"
+        android:text="22:30" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_sender"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+
+            android:paddingStart="30dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="30dp"
+            android:text="@string/message2"
+            android:textColor="#fff"
+
+
+            android:textSize="14sp" />
+
+        <ImageView
+
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/done_all"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+            android:textSize="12sp"
+        android:gravity="right"
+        android:layout_gravity="end"
+        android:paddingStart="20dp"
+
+        android:paddingEnd="20dp"
+        android:text="22:31" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape_receiver"
+
+        android:gravity="left"
+        android:lineSpacingExtra="5dp"
+        android:paddingStart="30dp"
+
+        android:paddingTop="20dp"
+
+        android:paddingEnd="30dp"
+        android:text="@string/message3"
+        android:textColor="#000"
+        android:textSize="14sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:textSize="12sp"
+        android:layout_gravity="start"
+        android:paddingStart="20dp"
+
+        android:paddingEnd="20dp"
+        android:text="22:32" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_sender"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_weight="1"
+            android:paddingStart="30dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="30dp"
+            android:text="@string/message4"
+            android:textColor="#fff"
+
+            android:textSize="14sp" />
+
+        <ImageView
+
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/done_all"
+            android:tint="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+
+        android:gravity="right"
+        android:paddingStart="20dp"
+        android:textSize="12sp"
+        android:paddingEnd="20dp"
+        android:layout_gravity="end"
+        android:text="22:33"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="503dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bar_writing_text"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:src="@drawable/emoji" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+
+            android:bottomRightRadius="30dp"
+            android:isScrollContainer="false"
+            android:singleLine="true"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            android:src="@drawable/attach" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            android:src="@drawable/mic" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
